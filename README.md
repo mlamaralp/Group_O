@@ -78,11 +78,24 @@ pip install requests geopandas pandas pytest streamlit pydantic matplotlib
 python main.py
 ```
 ### Run the tests
+**Windows (Command Prompt) / macOS / Linux:**
+```bash
+pytest
+```
+
+**Windows (PowerShell):**
 ```bash
 python -m pytest
 ```
 
 ### Run the Streamlit app
+
+**Windows (Command Prompt) / macOS / Linux:**
+```bash
+streamlit run app/streamlit_app.py
+```
+
+**Windows (PowerShell):**
 ```bash
 python -m streamlit run app/streamlit_app.py
 ```
