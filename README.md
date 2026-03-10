@@ -79,19 +79,10 @@ python main.py
 ```
 ### Run the tests
 ```bash
-pytest
-```
-or
-```bash
 python -m pytest
 ```
 
 ### Run the Streamlit app
-
-```bash
-streamlit run app/streamlit_app.py
-```
-or
 ```bash
 python -m streamlit run app/streamlit_app.py
 ```
